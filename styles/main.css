@@ -52,8 +52,12 @@ html {
 
 body { 
     font-family: Helvetica, Sans-serif; 
-    background-color: #F7E2DB;
+    background-color: #fff; /*#f5e34752;*/
     color: #7d6969; /*#716c6c; #7d6969*/
+    
+    
+    display: flex;
+    flex-direction: column;
 }
 
 p {
@@ -73,8 +77,117 @@ a {
 }
 
 
+.header, .welcome-section {
+    padding: 16px 100px 60px;
+}
+
+.header {
+    background-color: #1F2937;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__navbar {
+    display: flex;
+    gap: 24px;
+}
+
+.header__navbar a {
+    color: #E5E7EB;
+}
+
+.header__navbar a:hover {
+    color: #49a6e9;
+}
+
+.welcome-section {
+    background-color: #1F2937;
+    
+    display: flex;
+    gap: 40px;
+}
+
+.welcome-section__title {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.welcome-section__desc {
+    color: #eae3af87; /*#f5e34752;*/
+    padding: 10px 0;
+    flex: 1;
+}
+
+.welcome-section-button {
+    color: white;
+    background-color: #49a6e9;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+.welcome-section-button:hover {
+    color: black;
+}
+
+.welcome-section__image {
+    width: 400px;
+    height: 200px;
+    flex: 0;
+}
+
+.information-section {
+    padding: 25px 100px 60px;
+}
+
+.information-section-title {
+    color: black;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.information-section__items-container {
+    display: flex;
+}
+
+.information-section__item {
+    width: 200px;
+    height: 200px;
+}
+
+.information-section__item img {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #49a6e9;
+}
 
 
+.testimonial-section {
+    background-color: #f0eeee; /*#f0b9b9; #f5e34752; #E5E7EB;*/
+    padding: 100px 250px;
+}
+
+.testimonial-section__text {
+    line-height: 30px;
+}
+
+.testimonial-section__author {
+    float: right;
+}
+
+
+.footer-section {
+    color: white;
+    background-color: #1F2937;
+    padding: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
 
 
 

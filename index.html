@@ -12,54 +12,60 @@
         <header class="header">
             <img src="./public/images/logo.png" alt="header logo" />
             <ul class="header__navbar">
-                <li></li>
-                <li></li>
-                <li></li>
+                <li><a href="https://nextjs-myjs-tech-blog.vercel.app/">JSNews</a></li>
+                <li><a href="https://musica-erudita.netlify.app/">Awesome-Music</a></li>
+                <li><a href="https://ahoymarcus.github.io/odin-recipes/index.html">Odin-Recipes</a></li>
             </ul>
         </header>
         
-        <div class="welcome-section"">
-            <div class="welcome-section__info">
-                <h1>Land of Dev-Ops</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque, dolor ac suscipit volutpat, urna odio suscipit tortor, ut condimentum metus nulla sodales nisl. Nullam porttitor finibus metus ut faucibus. </p>
-                <button>Sing up</button>
+        <main class="main-section">
+            <div class="welcome-section">
+                <div class="welcome-section__info">
+                    <h1 class="welcome-section__title">Land of Dev-Ops</h1>
+                    <p class="welcome-section__desc">So, nowdays this methodology of DevOps that brings development and operation closer has become a very important method in terms of the adoption the Agile pratices of system-oriented approach and countinous delivery.</p>
+                    <button class="welcome-section-button">Sing up</button>
+                </div>
+                <a target="_blank" href="https://nextjs-myjs-tech-blog.vercel.app/development/dev-ops-architecture-2022-02-14">
+                    <img class="welcome-section__image" src="./public/images/dev-ops-hero-01-mini.png" alt="Tech Blog image" />
+                </a>
             </div>
-            <img class="hero__image" src="" alt="" />
-        </div>
-        
-        <div class="information-section">
-            <h2>Some random information</h2>
-            <div class="information-section__image-container">
-                <div class="information-section__images">
-                    <img src="" alt="" />
-                    <p>Curabitur gravida tristique sem vitae mattis. Sed vitae justo tristique mauris maximus luctus. Nulla vel erat aliquet, vulputate felis sed, aliquet ex.</p>
-                </div>
-                <div class="information-section__images">
-                    <p>Curabitur gravida tristique sem vitae mattis. Sed vitae justo tristique mauris maximus luctus. Nulla vel erat aliquet, vulputate felis sed, aliquet ex.</p>
-                </div>
-                <div class="information-section__images">
-                    <p>Curabitur gravida tristique sem vitae mattis. Sed vitae justo tristique mauris maximus luctus. Nulla vel erat aliquet, vulputate felis sed, aliquet ex.</p>
-                </div>
-                <div class="information-section__images">
-                    <p>Curabitur gravida tristique sem vitae mattis. Sed vitae justo tristique mauris maximus luctus. Nulla vel erat aliquet, vulputate felis sed, aliquet ex.</p>
+            
+            <div class="information-section">
+                <h2 class="information-section-title">Some random information</h2>
+                <div class="information-section__items-container">
+                    <div class="information-section__item">
+                       <img src="./public/images/devops-icon-01.png" alt="dev-ops icon" />
+                        <p>Curabitur gravida tristique sem vitae mattis. Sed vitae justo tristique mauris maximus luctus. Nulla vel erat aliquet, vulputate felis sed, aliquet ex.</p>
+                    </div>
+                    <div class="information-section__item">
+                        <p>Curabitur gravida tristique sem vitae mattis. Sed vitae justo tristique mauris maximus luctus. Nulla vel erat aliquet, vulputate felis sed, aliquet ex.</p>
+                    </div>
+                    <div class="information-section__item">
+                        <div>Countinous Integration Pipeline (CI)</div>
+                        <p>Continous integration (CI) is a pratice in which developers can check their code into a version controlled repository several time per day. Automated build pipelines are triggered by these checks which allows fast and easy to locate error detection.</p>
+                    </div>
+                    <div class="information-section__item">
+                        <div>Continous Delivery Pipeline (CD)</div>
+                        <p>Continous Delivery (CD) is the process that allows operation engineers and developers to deliver bug fixes, features, and configuration change into production reliably, quickly, and sustainably.</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        
-        <div class="testimonial-section">
-            <p>Aliquam eu tincidunt lorem. Quisque consectetur urna quis velit mattis, in rutrum nunc dignissim. Vivamus non finibus ligula, id semper dui. Proin in arcu augue. Donec convallis justo et arcu egestas lacinia. Integer pulvinar malesuada nisl, sit amet scelerisque massa pharetra non. Vivamus ut libero iaculis erat lobortis condimentum. Vivamus vel sapien dui. Vivamus ut sodales quam. Nam commodo rhoncus lacinia. Quisque at fringilla est. Curabitur sodales ex sit amet nibh euismod, eu sagittis nulla posuere. Maecenas consequat, nunc vel rutrum suscipit, elit mi dignissim felis, non cursus neque ligula a arcu. Sed at ipsum eu lacus pretium vehicula. Phasellus quis elementum quam.</p>
-            <span>Thor, God of Thunder</span>
-        </div>
-        
-        <div class="action-section">
-            <div class="action-section__call-to-action">
-                <h4>Call to action! It's time!<h4>
-                <p>Sign up for our product by clicking that button right over there!</p>
-                <button>Sign up</button>
+            
+            <div class="testimonial-section">
+                <p class="testimonial-section__text">Aliquam eu tincidunt lorem. Quisque consectetur urna quis velit mattis, in rutrum nunc dignissim. Vivamus non finibus ligula, id semper dui. Proin in arcu augue. Donec convallis justo et arcu egestas lacinia. Integer pulvinar malesuada nisl, sit amet scelerisque massa pharetra non. Vivamus ut libero iaculis erat lobortis condimentum. Vivamus vel sapien dui. Vivamus ut sodales quam. Nam commodo rhoncus lacinia. Quisque at fringilla est. Curabitur sodales ex sit amet nibh euismod, eu sagittis nulla posuere. Maecenas consequat, nunc vel rutrum suscipit, elit mi dignissim felis, non cursus neque ligula a arcu. Sed at ipsum eu lacus pretium vehicula. Phasellus quis elementum quam.</p>
+                <span class="testimonial-section__author">Thor, God of Thunder</span>
             </div>
-        </div>
+            
+            <div class="action-section">
+                <div class="action-section__call-to-action">
+                    <h4>Call to action! It's time!<h4>
+                    <p>Sign up for our product by clicking that button right over there!</p>
+                    <button>Sign up</button>
+                </div>
+            </div>
+        </main>
         
-        <footer>
+        <footer class="footer-section">
             Marcus Vinícius Richa - Web Developer
         </footer>
     </body>
