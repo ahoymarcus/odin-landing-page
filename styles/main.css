@@ -77,7 +77,7 @@ a {
 }
 
 
-.header, .welcome-section {
+.header, .welcome-section, .action-section {
     padding: 16px 100px 60px;
 }
 
@@ -98,7 +98,7 @@ a {
 }
 
 .header__navbar a:hover {
-    color: #49a6e9;
+    color: #3882F6; /*#49a6e9;*/
 }
 
 .welcome-section {
@@ -122,7 +122,7 @@ a {
 
 .welcome-section-button {
     color: white;
-    background-color: #49a6e9;
+    background-color: #3882F6; /*#49a6e9;*/
     border: none;
     border-radius: 5px;
     padding: 5px 15px;
@@ -193,6 +193,37 @@ a {
 .testimonial-section__author a {
     color: black;
     font-weight: 500;
+}
+
+.action-section {
+    padding: 60px 140px 60px;
+}
+
+.action-section__call-to-action {
+    background-color: #3882F6; /*#49a6e9;*/
+    border-radius: 6px;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.action-section__title, .action-section__text {
+    color: white;
+}
+
+.action-section__title {
+    font-size: 1.4rem;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.action-section__button { 
+    color: white;
+    background-color: #3882F6; /*#49a6e9;*/
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 8px 25px;
+    align-self: end;
 }
 
 
