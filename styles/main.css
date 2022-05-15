@@ -76,6 +76,9 @@ a {
     text-decoration: none;
 }
 
+button {
+    cursor: pointer;
+}
 
 .header, .welcome-section, .action-section {
     padding: 16px 100px 60px;
@@ -226,6 +229,10 @@ a {
     align-self: end;
 }
 
+.action-section__button:hover { 
+    font-weight: 900;
+    border: 2px solid white;
+}
 
 .footer-section {
     color: white;

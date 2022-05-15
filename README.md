@@ -24,25 +24,25 @@ Dependências:
 <br />
 
 
-### Imagem da Home page do Projeto:
+### Imagem das seções Header e Welcome da Landing Page:
 
-![Imagem da Home Page do Projeto](/images/)
-
-
-<br />
-
-
-### Imagem da seção superior :
-
-![Imagem da seção superior de uma página de receitas](/images/)
+![Imagem das seções header e welcome da Landing Page](/public/images/odin-land-page-top.png)
 
 
 <br />
 
 
-### Imagem da seção principal:
+### Imagem da seção de Informações da Landing Page:
 
-![Imagem da seção principal de uma página de receitas](/images/)
+![Imagem da seção de informações da Landing Page](/public/images/odin-land-page-middle.png)
+
+
+<br />
+
+
+### Imagem das seções finais da Landing Page:
+
+![Imagem das seções finais da Landing Page](/public/images/odin-land-page-bottom.png)
 
 
 
