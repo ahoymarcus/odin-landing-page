@@ -3,7 +3,7 @@
 
 <br />
 
-This is the second project from The Odin Project to create a Landing Page for the HTML-CSS part of the course.
+This is the second project from The Odin Project to create a Landing Page for the HTML-CSS course's section.
 
 <br />
 
